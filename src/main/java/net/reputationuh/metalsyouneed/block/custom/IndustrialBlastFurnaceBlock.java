@@ -34,7 +34,7 @@ public class IndustrialBlastFurnaceBlock extends BlockWithEntity implements Bloc
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
     public IndustrialBlastFurnaceBlock(Settings settings) {super(settings);}
-    private static VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 10, 16);
+    private static VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

@@ -70,7 +70,7 @@ public class IndustrialBlustingFurnaceRecipe implements Recipe<SimpleInventory> 
         public static final String ID = "industrial_blasting";
         // this is the name given in the json file
 
-        @Override
+        @Override    
         public IndustrialBlustingFurnaceRecipe read(Identifier id, JsonObject json) {
             ItemStack output = ShapedRecipe.outputFromJson(JsonHelper.getObject(json, "output"));
 

@@ -82,6 +82,8 @@ public class ModItems {
     public static final Item STEEL_POWDER = registerItem("steel_powder",
             new Item(new FabricItemSettings().group(ModItemGroup.TITANIUM)));
 
+    public static final Item STEEL_ROD = registerItem("steel_rod",
+            new Item(new FabricItemSettings().group(ModItemGroup.TITANIUM)));
 
 
 
@@ -92,4 +94,5 @@ public class ModItems {
         MetalsYouNeed.LOGGER.debug("Registering Mod Items for "+ MetalsYouNeed.MOD_ID);
 
     }
+    //123
 }

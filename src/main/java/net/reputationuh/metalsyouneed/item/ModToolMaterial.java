@@ -7,6 +7,12 @@ import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
+/**
+ * The ModToolMaterial enum represents different tool materials in a mod.
+ * Each tool material has specific properties such as mining level, durability,
+ * mining speed, attack damage, enchantability, and repair ingredient.
+ */
+
 public enum ModToolMaterial implements ToolMaterial{
     TITANIUM(3, 2100, 8.5F, 2.0F, 15,
             () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.TITANIUM})),
